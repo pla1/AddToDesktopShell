@@ -1,7 +1,6 @@
 # AddToDesktopShell
 Google removed the handy "Add to desktop" feature from Chrome. The feature installed any
-web page in your OS to look like an app. You can fake Chrome out to installing a web
-page like an app if you create a manifest and service worker.
+web page in your OS to look like an app.
 Basically we are creating the minimum to lead Chrome to believe this is a [PWA](https://developers.google.com/web/progressive-web-apps/).
 This repository is an example of that.
 
