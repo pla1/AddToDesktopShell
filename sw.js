@@ -1,5 +1,5 @@
-self.addEventListener('install', function(event) {
-  event.waitUntil(
+self.addEventListener('install', function(e) {
+  e.waitUntil(
     caches.open('AddToDesktopShell').then(function(cache) {
       return cache.addAll([
         '/shell.html',
