@@ -1,5 +1,4 @@
 self.addEventListener('install', function(event) {
-  console.log("Service worker install " + JSON.stringify(event));
   event.waitUntil(
     caches.open('AddToDesktopShell').then(function(cache) {
       return cache.addAll([
@@ -9,7 +8,6 @@ self.addEventListener('install', function(event) {
         '/images/shell192x192.png',
         '/images/shell512x512.png'
       ]);
-    });
-
+    })
   );
 });
