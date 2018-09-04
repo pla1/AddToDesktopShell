@@ -7,4 +7,4 @@ This repository is an example of that.
 
 These are the minimum shell files for an app to mimic the remove "Add to Desktop" Chrome feature.
 
-Example hosted here: https://pla.rocks/AddToDesktopShell/
+Example hosted here: https://pla.rocks/AddToDesktopShell/shell.html
