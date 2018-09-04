@@ -2,12 +2,12 @@
   "short_name": "Shell Web App",
   "name": "Example installable shell web page",
   "icons": [{
-      "src": "images/shell192x192.png",
+      "src": "../images/shell192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/shell512x512.png",
+      "src": "../images/shell512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
