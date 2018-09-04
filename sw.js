@@ -1,4 +1,5 @@
 self.addEventListener('install', function(e) {
+  console.log("Service worker. " + JSON.stringify(e));
   e.waitUntil(
     caches.open('AddToDesktopShell').then(function(cache) {
       return cache.addAll([
