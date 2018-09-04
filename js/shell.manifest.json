@@ -1,6 +1,7 @@
 {
   "short_name": "Shell Web App",
   "name": "Example installable shell web page",
+  "theme_color": "#317EFB",
   "icons": [{
       "src": "/AddToDesktopShell/images/shell192x192.png",
       "type": "image/png",
